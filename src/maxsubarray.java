@@ -37,7 +37,8 @@ public class maxsubarray {
         }
         return max;
     }
-
+    //tc=o(n)
+    //sc=0(1)
     public static int kadanes(int[] arr){
         int sum=0,max=Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
